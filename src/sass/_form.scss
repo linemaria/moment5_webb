@@ -1,0 +1,54 @@
+form {
+    margin: 50px auto;
+    text-align: center;
+    max-width: 400px;
+
+
+    .inputDiv {
+        width: 100%;
+        margin: 10px 0;
+  
+        label {
+            font-weight: bold;
+            width: 100%;
+            display: block;
+            text-align: left;
+        }
+        input {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            margin: 10px 0;
+            background-color: $lightColor;
+            border: 2px solid black;
+            font-size: 0.8em;
+
+            &[type=submit] {
+                background-color: $lightpink;
+                border-radius: 16px;
+                border: none;
+                padding:1.2em;
+                font-size: 0.8em;
+                width: 50%;
+    
+                &:hover {
+                    background-color: $darkpink;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+#edit-form{
+    display: block;
+
+    form{
+        width: 100%;
+        max-width: 500px;
+        text-align: left;
+        input {
+            font-size: 1em;
+        }
+    }
+}

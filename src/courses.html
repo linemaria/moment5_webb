@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/linelogga.png" type="image/x-icon">
+    <link rel="icon" type="image/png" href="./images/linelogga.png">
+    <title>Courses</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <header>
+        <a href="index.html">
+          <picture>
+              <img src="./images/linelogga.png" class="logo" alt="logga">
+          </picture>
+        </a>
+
+ 
+            <nav class="menu">
+                <ul>
+                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a href="#"> Work </a> </li>
+                    <li> <a href="courses.html"> Courses </a> </li>
+                    <li> <a href="#"> About </a> </li>
+                    <li> <a href="contact.html"> Contact </a> </li>
+                </ul>
+            </nav>
+   
+      </header>  
+<main>
+    <h1> Mina Kurser </h1>
+
+
+    <table id="course_table"></table>
+
+    <div id="edit-form"></div>
+
+    
+    <h2>Lägg till kurs</h2>
+
+
+    <form id="course_form" method="POST" >
+
+        <div class="inputDiv">
+            <label for="code">Kurskod:</label>
+            <input id="code" name="code" type="text" placeholder="Ex. DT173G">
+        </div>
+
+        <div class="inputDiv">
+            <label for="name">Kursnamn:</label>
+            <input id="name" name="name" type="text" placeholder="Ex. Webbutveckling I">
+        </div>
+
+        <div class="inputDiv">
+            <label for="progression">Progression:</label>
+            <input id="progression" name="progression" type="text" placeholder="Ex. A">
+        </div>
+
+        <div class="inputDiv">
+            <label for="term">Termin:</label>
+            <input id="term" name="term" type="number" placeholder="Ex. 1">
+        </div>
+
+        <div class="inputDiv">
+            <label for="syllabus">Syllabus:</label>
+            <input id="syllabus" name="syllabus" type="text" placeholder="https://website.com">
+        </div>
+
+        <div class="inputDiv">
+            <input id="submit" type="submit" value="Lägg till">
+        </div>
+
+    </form>
+
+
+
+  
+          <footer> 
+              <p>
+                  © Line Asp 2021
+              </p>
+          </footer>
+</body>
+<script src="js/main.js"></script>
+
+</html>

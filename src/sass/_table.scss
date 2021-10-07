@@ -1,0 +1,43 @@
+
+table {
+    margin: auto auto;
+    text-align: center;
+    width: 60%;
+    padding-bottom: 2em;
+
+    td, th {
+        padding: 10px;
+        max-width: 100%;
+    }
+    td{
+        border-bottom: 2px solid black;
+        a{
+            text-decoration: none;
+            border: none;
+            color: black;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+#course_table{
+
+    @include mobile {
+        font-size: 0.5em;
+     }
+     td {
+        @include mobile {
+            padding: none;
+
+         }
+    }
+
+}
+
+
+.noBoard{
+    border: none;
+}
