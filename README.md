@@ -1,19 +1,20 @@
 # moment5 - fetch
 
-## Uppgift
-- Skapa en webbplats med HTML, CSS & JS
-- Webbplatsen bör använda FETCH API med metoderna GET & POST
-- Valbar funktionalitet genom DELETE och UPDATE
+## Uppgift 🤓
+- Skapa en webbplats med HTML, CSS & JS ✅
+- Webbplatsen bör använda FETCH API med metoderna GET & POST✅
+- Valbar funktionalitet genom DELETE och UPDATE (Detta projekt innehåller DELETE)✅
 
-### Länk till webbplats
+### Länk till webbplats 🌟
 https://studenter.miun.se/~lias1700/dt173g/pub/courses.html
 
+## Hur använder jag detta projekt? 🌿
+**Steg 1:** Se till att NodeJs & NPM är installerat
 
-## Ladda ned detta projekt
-gitclone https://github.com/linemaria/moment5_webb/
+**Steg 2:** Kör ``` git clone ``` https://github.com/linemaria/moment5_webb/ 
 
+**Steg 3:** Kör ``` npm install ``` i terminalen.
 
-## Övrigt
+**Steg 4:** Kör nu ``` gulp ``` för att skapa mappen "pub" för projektet och resterande relaterade filer.
 
-För att köra detta projekt krävs att du har node.js & npm installerat ✅
-Sedan gitclone av detta projekt✅ Öppna mappen med projektet och gör npm install✅ Därefter kommandot gulp✅ 
+**Klart ✌️**
